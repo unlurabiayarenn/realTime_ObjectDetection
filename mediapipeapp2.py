@@ -15,7 +15,6 @@ FONT_SIZE = 1
 FONT_THICKNESS = 1
 TEXT_COLOR = (255, 0, 0)  # red
 
-
 def visualize(
         image,
         detection_result
@@ -37,9 +36,7 @@ def visualize(
                          MARGIN + ROW_SIZE + bbox.origin_y)
         cv2.putText(image, result_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                     FONT_SIZE, TEXT_COLOR, FONT_THICKNESS)
-
     return image
-
 
 IMAGE_FILE = 'savedframe.jpg'
 cap = cv2.VideoCapture(0)
@@ -75,5 +72,6 @@ while (True):
     cv2.imshow(winname="Face", mat=annotated_image)
     if cv2.waitKey(50) & 0xFF == ord('x'):  # x çıkış
         break
+
 cap.release()
 cv2.destroyAllWindows()

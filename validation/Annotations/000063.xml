@@ -1,0 +1,26 @@
+<annotation>
+	<folder>val</folder>
+	<filename>000063.jpg</filename>
+	<path>000063.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>687</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hats</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>17</ymin>
+			<xmax>341</xmax>
+			<ymax>273</ymax>
+		</bndbox>
+	</object>
+</annotation>
